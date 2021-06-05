@@ -1,0 +1,26 @@
+---
+title: "Research Findings"
+
+navbar:
+  title: "Randomness"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Defining Randomness"
+      icon: fa-book
+      href: definition1.html
+    - text: "Randomness & Distributions"
+      icon: fa-chart-bar
+      href: distributions1.html
+    - text: "Other Examples"
+      icon: fa-dna
+      href: OtherExamples.html
+      
+output:
+  html_document:
+    css: "styles.css"
+---
+This page summarises the main findings from my thesis research.
+...Or, at least, it will! Watch this space.

@@ -1,0 +1,57 @@
+body {
+  background-color: white;
+}
+
+.navbar-inverse {
+  background-color: gray;
+}
+
+h1 {
+  text-align: center;
+  color: #FFC300;
+  font-family: "Gill Sans";
+  font-weight: 100;
+  font-size: 300%;
+}
+
+h2 {
+  text-align: center;
+  color: #FFC300;
+  font-family: "Gill Sans";
+  font-weight: 100;
+  font-size: 150%;
+}
+
+p {
+  color: gray;
+  font-family: "Gill Sans";
+  font-weight: 100;
+  font-size: 150%;
+  text-align: justify;
+}
+
+list-item {
+  color: gray;
+  font-family: "Gill Sans";
+  font-weight: 100;
+  font-size: 150%;
+  text-align: justify;
+}
+
+table, th, td {
+  color: gray;
+  font-family: "Gill Sans";
+  font-weight: 100;
+  border: 1px gray;
+  border-collapse: collapse;
+  text-align: center;
+  vertical-align: middle;
+}
+
+th{
+  font-weight: bold;
+}
+
+a { 
+  color: #FFC300;
+}

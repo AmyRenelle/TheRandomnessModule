@@ -60,6 +60,8 @@ Let's start with the *no-pattern definition*:
 <br>
 If you're keen to know more, additional information can be found on the <a href = ".\Representativeness.html" target="_blank">representativeness heuristic</a> and <a href = ".\colloquial.html" target="_blank">colloquial uses</a> of the term "random".
 
+<br>
+
 ### The Equiprobability Definition
 Now let's try the *equiprobability definition*:
 

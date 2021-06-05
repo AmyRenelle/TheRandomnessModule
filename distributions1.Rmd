@@ -62,6 +62,8 @@ The connection between random phenomena and structured distributions appears to 
 <p style="background-image: url('fern.jpg'); ; background-repeat: no-repeat; background-attachment: fixed;
   background-size: cover; color: white ! important; text-align: center ! important;"><b>Whānau Time!</b><br>In this sub-section, <em>Spatial Randomness</em>, we are learning about how randomness can be seen over an area.<br>Ask your whānau about their experiences with seeing random phenomenon, like rainfall and glow-worms, and any stories relating to this.</p>
 
+<br>
+
 ### Simulating Rainfall
 <p>Let's have a bit more of an explore. Using the plot below, change the kind of distribution used in the simulation to produce a spatial plot. This plot represents the pavestones, with the dots recording where each of the 50 raindrops fall.</p>
 <body>
@@ -91,6 +93,8 @@ The connection between random phenomena and structured distributions appears to 
 <ul><li>Which distribution do you think worked best?</li></ul>
 </body>
 More information on these distributions <a href = ".\FurtherExplanations.html" target = "_blank">here</a>.
+
+<br>
 
 ### Short-run & Long-run
 <p>Our next exploration will look at some examples of short run and long run simulations.</p>
@@ -244,6 +248,8 @@ See some <a href = https://vimeo.com/557055270 target = "_blank">examples</a> on
 <p style="background-image: url('fern.jpg'); ; background-repeat: no-repeat; background-attachment: fixed;
   background-size: cover; color: white ! important; text-align: center ! important;"><b>Whānau Time!</b><br>In this sub-section, <em>Waiting Times</em>, we are learning about how randomness can be seen over time. The context here will reference Twitter, but there are many examples of random waiting times.<br>Ask your whānau about their experiences and stories about random times between events, like out fishing, natural disasters, and weather patterns.</p>
 
+<br>
+
 ### Exploring with Scampy
 To explore the waiting times distribution and distribution of counts, get the data for your favourite celebrity in the example above using the buttons below and have a play around on <a href = "https://www.stat.auckland.ac.nz/~wild/scampy/" target="_blank">Scampy</a>.
 
@@ -379,6 +385,8 @@ function button_handler_Ru() {
 }
 ```
 
+<br>
+
 ### Waiting Times to Distributions
 When we have enough data, random observations typically build into distribution. It takes a few tweets to get there though!
 
@@ -489,6 +497,8 @@ function button_handler_Trump2() {
 
 See a discussion <a href = https://vimeo.com/555570311 target = "_blank">example</a>!
 
+<br>
+
 ### Getting a Random Sample
 Now that we have looked at building distributions from random observations, we now want to explore the reverse process - getting a random sample from a distribution!
 
@@ -512,5 +522,3 @@ sample(dataTrump, size = 5, replace = TRUE)
 
 <p>Let's see an example of sampling 5 random observations:</p>
 <center><div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/554997232?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Data Bucket Sampling"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></center>
-
-<br>

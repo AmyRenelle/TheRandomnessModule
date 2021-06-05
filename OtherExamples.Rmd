@@ -366,7 +366,7 @@ knitr::include_graphics("Bio.jpg")
 </center>
 
 ## 3.4 Chemistry
-<p>Randomness is a key property the universe. As chemistry examines the building blocks of the universe, we typically have to deal with this random behaviour. For example, particles are known to move randomly.
+<p>Randomness is a key property the universe. As chemistry (mātai matū) examines the building blocks of the universe, we typically have to deal with this random behaviour. For example, particles are known to move randomly.
 <br>
 <br>
 One example of this is the movement of gas particles through a semi-permeable membrane. The movement from high to low concentration is not a one-step process - the gas particles continually move around, swapping which side of the membrane they are on. The movement from high to low concentration effects the degree of movement; thinking statistically, if there are more particles on one side of the membrane there will be more movement simply because there are more particles to move! </p>
@@ -387,7 +387,7 @@ In the video, we watch the four gas molecules for 25 seconds. During this time, 
 We should explore the movement more carefully. In particular, remember how I said <em>"if there are more particles on one side of the membrane there will be more movement simply because there are more particles to move"</em>? This is what we will investigate in more detail.
 
 <p>You could do this activity at home or in class using coins and/or a computer.<br>
-Collect as many coins as you can! Let's start off with 10 coins and then add some more. Place 8 coins in one pile on the left and the last 2 coins in another pile of the right.<br>
+Collect as many coins (uka) as you can! Let's start off with 10 coins and then add some more. Place 8 coins in one pile on the left and the last 2 coins in another pile of the right.<br>
 Flip all of the coins in the pile on the left. Place them into "move" and "stay" groups, where a coin is in the "move" group if it is a head and the "stay" group if it is a tail. These coins represent the gas molecules that "start" on the left side of the chemistry experiment set-up - there is a 50% chance they move to the right side and 50% chance they stay on the left side.</p>
 <body>
 <ul style="color:gray !important;"><li>How many coins in the left pile moved? How many stayed?</li></ul>

@@ -696,7 +696,7 @@ Coming soon!
 <div id="chemistry" class="section level2">
 <h2>3.4 Chemistry</h2>
 <p>
-Randomness is a key property the universe. As chemistry examines the building blocks of the universe, we typically have to deal with this random behaviour. For example, particles are known to move randomly. <br> <br> One example of this is the movement of gas particles through a semi-permeable membrane. The movement from high to low concentration is not a one-step process - the gas particles continually move around, swapping which side of the membrane they are on. The movement from high to low concentration effects the degree of movement; thinking statistically, if there are more particles on one side of the membrane there will be more movement simply because there are more particles to move!
+Randomness is a key property the universe. As chemistry (mātai matū) examines the building blocks of the universe, we typically have to deal with this random behaviour. For example, particles are known to move randomly. <br> <br> One example of this is the movement of gas particles through a semi-permeable membrane. The movement from high to low concentration is not a one-step process - the gas particles continually move around, swapping which side of the membrane they are on. The movement from high to low concentration effects the degree of movement; thinking statistically, if there are more particles on one side of the membrane there will be more movement simply because there are more particles to move!
 </p>
 <center>
 <img src="chem.jpg" width="25%" style= padding:10px; />
@@ -711,7 +711,7 @@ Randomness is a key property the universe. As chemistry examines the building bl
 <script src="https://player.vimeo.com/api/player.js"></script>
 <p>We should explore the movement more carefully. In particular, remember how I said <em>“if there are more particles on one side of the membrane there will be more movement simply because there are more particles to move”</em>? This is what we will investigate in more detail.</p>
 <p>
-You could do this activity at home or in class using coins and/or a computer.<br> Collect as many coins as you can! Let’s start off with 10 coins and then add some more. Place 8 coins in one pile on the left and the last 2 coins in another pile of the right.<br> Flip all of the coins in the pile on the left. Place them into “move” and “stay” groups, where a coin is in the “move” group if it is a head and the “stay” group if it is a tail. These coins represent the gas molecules that “start” on the left side of the chemistry experiment set-up - there is a 50% chance they move to the right side and 50% chance they stay on the left side.
+You could do this activity at home or in class using coins and/or a computer.<br> Collect as many coins (uka) as you can! Let’s start off with 10 coins and then add some more. Place 8 coins in one pile on the left and the last 2 coins in another pile of the right.<br> Flip all of the coins in the pile on the left. Place them into “move” and “stay” groups, where a coin is in the “move” group if it is a head and the “stay” group if it is a tail. These coins represent the gas molecules that “start” on the left side of the chemistry experiment set-up - there is a 50% chance they move to the right side and 50% chance they stay on the left side.
 </p>
 <body>
 <ul style="color:gray !important;">
@@ -754,22 +754,22 @@ coin = c(&#39;heads: move&#39;, &#39;tails: stay&#39;)
 
 #Randomly sample (i.e., do the coin toss!) for each pile and show the first few outcomes (not all 1000!) along with the overall totals
 leftPile = sample(coin, size = left, replace = TRUE); head(leftPile); table(leftPile)</code></pre>
-<pre><code>## [1] &quot;heads: move&quot; &quot;heads: move&quot; &quot;heads: move&quot; &quot;tails: stay&quot; &quot;heads: move&quot;
-## [6] &quot;heads: move&quot;</code></pre>
+<pre><code>## [1] &quot;heads: move&quot; &quot;tails: stay&quot; &quot;heads: move&quot; &quot;tails: stay&quot; &quot;tails: stay&quot;
+## [6] &quot;tails: stay&quot;</code></pre>
 <pre><code>## leftPile
 ## heads: move tails: stay 
-##         391         409</code></pre>
+##         402         398</code></pre>
 <pre class="r"><code>rightPile = sample(coin, size = right, replace = TRUE); head(rightPile); table(rightPile)</code></pre>
-<pre><code>## [1] &quot;heads: move&quot; &quot;heads: move&quot; &quot;tails: stay&quot; &quot;heads: move&quot; &quot;heads: move&quot;
-## [6] &quot;heads: move&quot;</code></pre>
+<pre><code>## [1] &quot;heads: move&quot; &quot;tails: stay&quot; &quot;tails: stay&quot; &quot;heads: move&quot; &quot;tails: stay&quot;
+## [6] &quot;tails: stay&quot;</code></pre>
 <pre><code>## rightPile
 ## heads: move tails: stay 
 ##          98         102</code></pre>
 <pre class="r"><code>#Calculate the new number of molecules on the left and right
 newRight = length(which(leftPile == &quot;heads: move&quot;)) + length(which(rightPile == &quot;tails: stay&quot;)); newRight</code></pre>
-<pre><code>## [1] 493</code></pre>
+<pre><code>## [1] 504</code></pre>
 <pre class="r"><code>newLeft = length(which(leftPile == &quot;tails: stay&quot;)) + length(which(rightPile == &quot;heads: move&quot;)); newLeft</code></pre>
-<pre><code>## [1] 507</code></pre>
+<pre><code>## [1] 496</code></pre>
 <p>Even if both sides have a move/stay ratio of 50:50, more on one side means the exchange will be greater in one direction than the other (more movement from the larger side). <br> <br> Right, there is one more thing to check out! Often, in chemistry, we think of the movement from high concentration to low concentration across a semi-permeable membrane as being a one-step process. What we see if we run the above simulation 100 times, is a fluctuation around 50%. This fluctuation is more volatile for smaller sample sizes (i.e. few molecules overall).</p>
 <table>
 <tr>

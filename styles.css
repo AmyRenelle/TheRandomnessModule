@@ -148,3 +148,21 @@ a:hover {
 .nav-pills > li > a:hover {
     background-color: #FFF5D6 !important;
 }
+
+.spoiler {
+  visibility: hidden;
+}
+
+.spoiler::before {
+  visibility: visible;
+  content: "Hover to see the answer.";
+  font-weight: bold;
+}
+
+.spoiler:hover {
+  visibility: visible;
+}
+
+.spoiler:hover::before {
+  display: none;
+}

@@ -50,23 +50,22 @@ knitr::include_graphics("coffee.jpg")
 <br>
 <table width="100%">
 <tr>
-<td>Option 1</td>
-<td>Option 2</td>
-<td>Option 3</td>
+<td align="left" valign="top">
+<center><iframe width="560" height="215" src="https://player.vimeo.com/video/555031767?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></center>
+</td>
 </tr>
 <tr>
-<td align="left" valign="top" width="30%" padding=10px>
-<center><iframe src="https://player.vimeo.com/video/555031767" width="210" frameborder="0" allow="fullscreen" allowfullscreen></iframe></center> 
+<td align="left" valign="top">
+<center><iframe width="560" height="265" src="https://player.vimeo.com/video/555032825?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></center>
 </td>
-<td align="left" valign="top" width="30%" padding=10px>
-<center><iframe src="https://player.vimeo.com/video/555033102" width="200" frameborder="0" allow="fullscreen" allowfullscreen></iframe></center>
-</td>
-<td align="left" valign="top" width="30%">
-<center><iframe src="https://player.vimeo.com/video/555035531" width="300" height="80" frameborder="0" allow="fullscreen" allowfullscreen></iframe></center>
+</tr>
+<tr>
+<td align="left" valign="top">
+<center><iframe width="560" height="215" src="https://player.vimeo.com/video/555035531?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></center>
 </td>
 </tr>
 </table>
-
+<br>
 <body>
 <ul style="color:gray !important;"><li>What did you like about each example?</li> 
 <li>What did you dislike?</li>
@@ -88,26 +87,15 @@ Run a <a href = "https://www.stat.auckland.ac.nz/~wild/scampy/" target="_blank">
 
 <div id="roulette" class="section level3">
 ### Roulette
+
 :::: {style="display: flex;"}
 
 ::: {}
-At a visit to the casino, a friend bets $20 on "black" at the roulette table. They did not consider what events had previously occurred before placing their bet, they just picked black and went for it! How likely are they to win?
 
-```{r include = FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-if (!requireNamespace("webex")) {
-  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"psyteachr/webex\")")
-} else {
-  library("webex")
-}
-```
+<p>At a visit to the casino, a friend bets $20 on "black" at the roulette table. They did not consider what events had previously occurred before placing their bet, they just picked black and went for it!</p>
 
-`r mcq(c("Fairly likely", "They might win; they might not", "Fairly unlikely", answer = "They might win; they might not"))`
+<iframe id="interactApp60c302bc5196d7001709546d" width="800" height="300" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/60c302bc5196d7001709546d/q/1?method=iframe"></iframe>
 
-<body>
-<ul style="color:gray !important;"><li>If you suggested your friend was fairly likely to win, why would black be more likely than red?</li>
-<li>If you suggested your friend was fairly unlikely to win, why would red be more likely than black?</li></ul>
-</body>
 :::
 
 :::{}
@@ -119,29 +107,20 @@ knitr::include_graphics("wheel2.jpg")
 :::
 
 ::::
-
-Your other friend at the casino saw that the last five numbers to come up were all red. "It's a run of reds" they whisper to you, before placing a $20 bet on red. Do you think this friend is more likely to win than your friend who placed a bet on black?
-
-`r mcq(c("I think this friend is more likely to win", "They might win; they might not", "I think this friend is less likely to win", answer = "They might win; they might not"))`
-
-<ul style="color:gray !important;"><li>Does the roulette wheel remember what happened last time? Or the time before?</li> 
-<li>Is each spin independent from the last? What does this mean for "runs of red"?</li> 
-<li>Has the probability of a red number increased? Decreased? Stayed the same?</li></ul>
-
-<p>A man sitting at the roulette table hands you a piece of paper. "Here are the last 30 numbers to come up..."</p>
 <br>
+<p>Your other friend at the casino saw that the last five numbers to come up were all red. "It's a run of reds" they whisper to you, before placing a $20 bet on red.</p>
+
+<iframe id="interactApp60c3037b5196d70017095476" width="800" height="400" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/60c3037b5196d70017095476/q/1?method=iframe"></iframe>
+<br>
+<p>A man sitting at the roulette table hands you a piece of paper. "Here are the last 30 numbers to come up..."</p>
+
 <center>
 ```{r, echo=FALSE, out.extra='style= padding:10px;'}
 knitr::include_graphics("roulette.jpg")
 ```
 </center>
 <br>
-What would you bet on?
-
-`r mcq(c("I would bet on black!", "Either!", "I would bet on red!", answer = "Either!"))`
-
-<ul style="color:gray !important;"><li>If you said you would pick red or black, why?</li>
-<li>Does the roulette wheel remember what happened last time? Or the time before? Does the last 30 outcomes affect the next outcome at all?</li></ul>
+<iframe id="interactApp60c303ed7285f10017d1396b" width="800" height="400" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/60c303ed7285f10017d1396b/q/1?method=iframe"></iframe>
 <br>
 </div>
 
@@ -230,23 +209,22 @@ Which of the following options depict the waiting times between volcanic eruptio
 
 <table width="100%">
 <tr>
-<td>Option 1</td>
-<td>Option 2</td>
-<td>Option 3</td>
+<td align="left" valign="top" padding=10px>
+<center><iframe width="650" height="415" src="https://player.vimeo.com/video/557056993?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></center> 
+</td>
 </tr>
 <tr>
-<td align="left" valign="top" width="30%" padding=10px>
-<center><iframe src="https://player.vimeo.com/video/557056993" width="210" frameborder="0" allow="fullscreen" allowfullscreen></iframe></center> 
+<td align="left" valign="top" padding=10px>
+<center><iframe width="650" height="415" src="https://player.vimeo.com/video/557057322?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></center>
 </td>
-<td align="left" valign="top" width="30%" padding=10px>
-<center><iframe src="https://player.vimeo.com/video/557057322" width="200" frameborder="0" allow="fullscreen" allowfullscreen></iframe></center>
-</td>
-<td align="left" valign="top" width="30%">
-<center><iframe src="https://player.vimeo.com/video/557065796" width="300" height="80" frameborder="0" allow="fullscreen" allowfullscreen></iframe></center>
+</tr>
+<tr>
+<td align="left" valign="top">
+<center><iframe width="800" height="415" src="https://player.vimeo.com/video/557065796?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></center>
 </td>
 </tr>
 </table>
-
+<br>
 <body>
 <ul><li>What do you think? What was the smallest waiting time? What was the largest?</li>
 <li>Which of the options was most intuitive?</li>
@@ -463,15 +441,6 @@ So, as in the plots, the more molecules (or coins in the simulation), the more s
 
 ## 3.5 Physics
 
-```{r include = FALSE} 
-knitr::opts_chunk$set(echo = TRUE)
-if (!requireNamespace("webex")) {
-  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"psyteachr/webex\")")
-} else {
-  library("webex")
-}
-```
-
 There are many examples in physics (mātai ahupūngao) where randomness plays a part. One such example is radioactive decay. Do you recall the waiting time Twitter examples in the Distributions tab? This is similar!
 
 <center>
@@ -492,41 +461,32 @@ knitr::include_graphics("phys.jpg")
 
 So, let's say we have 50 atoms we are watching and the rate of decay is 0.167 atoms every hour. 
 
-In the first hour, how many atoms do you expect to decay? `r fitb(8.333, num = TRUE, ignore_ws = TRUE, tol = 0.7, regex = TRUE)`
-  
-`r hide("Explanation")`
-8.333 but, we can't have a third of an atom! So, let's say 8 or 9.
-`r unhide()`
+In the first hour, how many atoms do you expect to decay?
+<br>
+[8.33 but, we can't have a third of an atom! So, let's say 8 or 9.]{.spoiler}
 
-Now, this is only in theory so let's simulate this! Sort the list below into groups according to how good they would be to use for simulating 50 atoms that are randomly decaying at a rate of 0.167 per hour.
-`r mcq(c("Throw 50 dice, count how many land on a 6, then repeat with the dice that are remaining.", "Get a spinner with six sections with one section representing decay, spin the spinner and if it lands on the decay section then the atom decayed.", "Throw 50 dice, count how many land on a 6.", "Write some code where the probability of decay is 0.167 and the probability of no decay is 0.833. Run 50 times.", "Write decay on 8 or 9 pieces of paper and mix this in with 41 or 42 pieces of paper that read no decay. Put these in a bag and randomly draw 50 observations.", answer = "Throw 50 dice, count how many land on a 6, then repeat with the dice that are remaining."))`
-
-`r hide("Answer Explanation")`
-Throw 50 dice (where the dice represent the atoms), count how many land on a 6 (1/6 is 0.167 so the ones that land on a six are the ones that decay), then repeat with the dice that are remaining (each throw of the dice represent the next hour of decay).
-For all the other options, we would need to repeat the process with the remaining non-decayed atoms!
-`r unhide()`
-
+Now, this is only in theory so let's simulate this!
+<br>
+<iframe id="interactApp60c310a47285f10017d1398a" width="800" height="800" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/60c310a47285f10017d1398a/q/1?method=iframe"></iframe>
+<br>
 Let's give it a go!
 Here are the results of rolling 50 dice. Count how many are a 6.
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
 x = "6, 4, 4, 3, 5, 6, 6, 5, 3, 4, 3, 6, 5, 6, 2, 1, 6, 1, 4, 5, 2, 5, 4, 4, 1, 1, 2, 2, 6, 2, 3, 5, 2, 1, 4, 4, 5, 5, 5, 3, 2, 3, 5, 4, 1, 2, 1, 1, 1, 3"
 paste(x, collapse = ", ")
 ```
-There are: `r fitb("7")`
-
-`r hide("Answer Explanation")`
-So, that means 7 atoms decayed in the first hour. 
-`r unhide()`
-
-How many atoms are left? `r fitb("43")`
-
+There are: [7! So, that means 7 atoms decayed in the first hour.]{.spoiler}
+<br>
+How many atoms are left? [43!]{.spoiler}
+<br>
 So, let's roll for the next hour!
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
 x = "1, 2, 1, 5, 3, 5, 1, 2, 2, 2, 6, 1, 2, 3, 2, 2, 2, 4, 6, 2, 4, 2, 5, 1, 1, 2, 5, 3, 6, 3, 6, 1, 4, 5, 2, 3, 5, 1, 3, 5, 3, 1, 6"
 paste(x, collapse = ", ")
 ```
-How many atoms decayed this hour? `r fitb("5")`
-
-We repeat this until there are no more atoms left! If everyone in your class did this activity and you combined your plots, we would get something that looks like this:
+<br>
+<p>How many atoms decayed this hour? [5!]{.spoiler}</p>
+<br>
+<p>We repeat this until there are no more atoms left! If everyone in your class did this activity and you combined your plots, we would get something that looks like this:</p>
 <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/553847417?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ezgif.com-gif-maker.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <br>

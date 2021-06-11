@@ -1,26 +1,5 @@
 ---
 title: "The Representativeness Heuristic"
-
-navbar:
-  title: "Randomness"
-  type: inverse
-  left:
-    - text: "Home"
-      icon: fa-home
-      href: index.html
-    - text: "Defining Randomness"
-      icon: fa-book
-      href: definition1.html
-    - text: "Randomness & Distributions"
-      icon: fa-chart-bar
-      href: distributions1.html
-    - text: "Other Examples"
-      icon: fa-dna
-      href: OtherExamples.html
-      
-output:
-  html_document:
-    css: "styles.css"
 ---
 Most research, starting with the original paper by Tversky and Kahneman (1974), appears to suggest that the representativeness heuristic is the primary bias underpinning randomness misconceptions. 
 

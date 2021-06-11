@@ -1,8 +1,5 @@
 ---
 title: "Defining Randomness"
-output:
-  html_document:
-    css: "styles.css"
 ---
 
 # {.tabset}

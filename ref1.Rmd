@@ -1,8 +1,5 @@
 ---
 title: "References"
-output:
-  html_document:
-    css: "styles.css"
 ---
 <body>
 <ul style = "color: gray; font-family: "Gill Sans"; font-weight: 100;

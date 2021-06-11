@@ -1,24 +1,5 @@
 ---
 title: "Home"
-navbar:
-  left:
-  - href: index.html
-    icon: fa-home
-    text: Home
-  - href: definition1.html
-    icon: fa-book
-    text: Defining Randomness
-  - href: distributions1.html
-    icon: fa-chart-bar
-    text: Randomness & Distributions
-  - href: OtherExamples.html
-    icon: fa-dna
-    text: Other Examples
-  title: Randomness
-  type: inverse
-output:
-  html_document:
-    css: "styles.css"
 ---
 
 Welcome to the **Randomness Module**.

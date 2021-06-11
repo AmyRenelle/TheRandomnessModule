@@ -1,8 +1,5 @@
 ---
 title: "Teachers' Corner"
-output:
-  html_document:
-    css: "styles.css"
 ---
 
 Hello! This page contains a few additional resources that aim to inspire how you might use this module in your classroom. Feel free to adapt any suggestions to your class needs.
